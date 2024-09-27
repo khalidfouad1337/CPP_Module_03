@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khalid <khalid@student.42.fr>              +#+  +:+       +#+        */
+/*   By: kfouad <kfouad@student.1337.ma>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 23:09:56 by khalid            #+#    #+#             */
-/*   Updated: 2024/09/26 23:10:58 by khalid           ###   ########.fr       */
+/*   Updated: 2024/09/27 19:36:21 by kfouad           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
-int main() {
+int main()
+{
     ClapTrap clap("CT-001");
     
     clap.attack("Enemy");
